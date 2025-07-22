@@ -13,7 +13,7 @@ A comprehensive legal and tax research platform developed under the “Ladhani T
 - **Database:** SQL Server 2019+ (100,000+ documents, custom indexing)
 - **Tools:** RedGate SQLCompare, PowerShell, InnoSetup, GitHub Actions, DevExpress
 - **Deployment:** Windows Server 2022, IIS, self-hosted CI/CD and licensing
-- **Other:** SKGL Licensing, SQL Server Express Automation, WebView, WinForms, RBAC
+- **Other:** Licensing, SQL Server Express Automation, WebView, WinForms, RBAC
 
 ---
 
@@ -31,11 +31,11 @@ A comprehensive legal and tax research platform developed under the “Ladhani T
 
 ### 🖥️ Desktop Application (WinForms / .NET Framework + SQL Server)
 - Created a **desktop research suite** supporting offline caching and synced access to licensed document data.
-- Integrated a custom **licensing engine** using SKGL and VB.NET to prevent piracy.
+- Integrated a custom **licensing engine** in VB.NET to prevent piracy.
 - Delivered as a **click-to-install package** bundled with SQL Server Express and fonts via InnoSetup.
 
 ### 🔐 License Key Generator (VB.NET)
-- Built a hardware-bound **keygen and license validation system** in VB.NET using SKGL.
+- Built a hardware-bound **keygen and license validation system** in VB.NET.
 - Designed for limited-time and device-specific activation to ensure compliance.
 
 ### 🧠 Document Database (SQL Server)
