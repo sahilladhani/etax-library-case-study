@@ -80,20 +80,20 @@ A comprehensive legal and tax research platform developed under the “Ladhani T
 
 ## 📐 Architecture Overview
 
-               [Users]
-                  ↓
+                  [ Users ]
+                   ↓
  ┌────────────────────────────────────┐
- │   Desktop App (.NET / SQL Server) │
- │   Web App (ASP.NET / Flask)       │
+ │  Desktop App (.NET / SQL Server)   │
+ │  Web App (ASP.NET / Flask)         │
  └────────────────────────────────────┘
-                  ↓
-           [Backend APIs]
-(ASP.NET Core + Flask + SQL Logic)
-                  ↓
-       [SQL Server 2019 Database]
+                   ↓
+           [ Backend APIs ]
+    (ASP.NET Core + Flask + SQL Logic)
+                   ↓
+     [ SQL Server 2019 Database ]
     (100,000+ documents, RBAC, search)
-                  ↓
-    [Admin Tools / Sync Engine / CI]
+                   ↓
+   [ Admin Tools / Sync Engine / CI ]
 
 ---
 
