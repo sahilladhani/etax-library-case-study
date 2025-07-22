@@ -76,26 +76,24 @@ A comprehensive legal and tax research platform developed under the “Ladhani T
 - Purchased, set up, and secured a self-hosted **Windows Server 2022 VPS**
 - Deployed IIS for web hosting, SQL Server for database backend, and CI jobs for automated deploys
 
----
-
 ## 📐 Architecture Overview
 
-                  [ Users ]
-                   ↓
- ┌────────────────────────────────────┐
- │  Desktop App (.NET / SQL Server)   │
- │  Web App (ASP.NET / Flask)         │
- └────────────────────────────────────┘
-                   ↓
-           [ Backend APIs ]
-    (ASP.NET Core + Flask + SQL Logic)
-                   ↓
-     [ SQL Server 2019 Database ]
-    (100,000+ documents, RBAC, search)
-                   ↓
-   [ Admin Tools / Sync Engine / CI ]
-
----
+```
+                [ Users ]
+                    ↓
+    ┌────────────────────────────────┐
+    │  Desktop App (.NET / SQL)      │
+    │  Web App (ASP.NET / Flask)     │
+    └────────────────────────────────┘
+                    ↓
+            [ Backend APIs ]
+   (ASP.NET Core + Flask + SQL Logic)
+                    ↓
+        [ SQL Server 2019 Database ]
+   (100,000+ documents, RBAC, search)
+                    ↓
+    [ Admin Tools / Sync Engine / CI ]
+```
 
 ## 🧪 Testing & Quality Assurance
 
