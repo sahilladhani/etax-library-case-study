@@ -105,7 +105,7 @@ A comprehensive legal and tax research platform developed under the “Ladhani T
 
 ## 📬 Contact & Credits
 
-📧 [ladhanisahil@proton.me](mailto:ladhanisahil@proton.me)  
+📧 [sahil@ladhanitaxguide.com](mailto:sahil@ladhanitaxguide.com)  
 🔗 [github.com/sahilladhani](https://github.com/sahilladhani)  
 
 > 💡 This case study reflects solo development and engineering leadership over a multi-phase product lifecycle. Project is live under the “Ladhani Tax Guide” brand.
